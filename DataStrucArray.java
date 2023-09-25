@@ -16,9 +16,9 @@ public class DataStructureArray
     //a
     public static void edit(int toBeEdited, int newItemToReplace, int[] arrContents)
     {
-    for(int a=0; a<arrContents.length; a++)
-        if(newItemToReplace == arrContents[a]) 
-            arrContents[a] = toBeEdited; 
+        for(int a=0; a<arrContents.length; a++)
+            if(newItemToReplace == arrContents[a]) 
+                arrContents[a] = toBeEdited; 
     }
     
     //b
